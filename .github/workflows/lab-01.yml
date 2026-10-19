@@ -20,3 +20,7 @@ jobs:
         uses: actions/checkout@v7
       - name: 받은 뒤 폴더 목록
         run: ls -la
+      - name: 두 가지 OS 확인
+        run: |
+          echo "셸이 본 것: $(uname -s)"
+          echo "Actions가 준 것: ${{ runner.os }}"
