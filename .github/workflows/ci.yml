@@ -2,10 +2,10 @@
 name: ci
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+#  push:
+#    branches: [main]
+#  pull_request:
+#    branches: [main]
   workflow_dispatch:
 
 # 워크플로 전체의 기본 권한 — 코드 읽기만
